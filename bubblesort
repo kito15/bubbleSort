@@ -31,8 +31,6 @@ int main()
 
         *(a + i) = a_item;
     }
-
-    // Write your code here
     int numberofSwaps=0;
     for (int h=0; h<n; h++){
         for (int j=0; j<n-1; j++){
